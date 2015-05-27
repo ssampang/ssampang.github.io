@@ -3,9 +3,6 @@
  */
 .site-header {
     min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
 }
 
 .site-nav {
@@ -54,7 +51,6 @@
 }
 
 .post-list {
-    margin-left: 0;
     list-style: none;
 
     > li {
@@ -65,6 +61,7 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    text-align: center;
 }
 
 .post-link {
