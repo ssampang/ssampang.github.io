@@ -46,7 +46,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 0 0 $spacing-unit 0;
 }
 
 .page-heading {
@@ -68,6 +68,8 @@
 }
 
 .post-link {
+    float: left;
+    margin-right: 10px;
     display: block;
     font-size: 24px;
 }
