@@ -7,3 +7,4 @@ github_username:  ssampang
 
 # Build settings
 markdown: kramdown
+permalink: /:title.html
