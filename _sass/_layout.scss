@@ -64,15 +64,23 @@
     margin:auto;
 }
 
+.post-list li {
+    font-size: 0px;
+}
+
 .lih2 {
     margin-bottom: 0px;
 }
 
 .main-post-meta {
-    float:right;
+    text-align: right;
+    font-size: $small-font-size;
+    display:inline-block;
+    color: $grey-color;
+    width:49%;
 }
 
-.main-post-meta, .post-meta {
+.post-meta {
     font-size: $small-font-size;
     color: $grey-color;
     text-align: center;
@@ -82,6 +90,7 @@
     margin-right: 10px;
     display: inline-block;
     font-size: 24px;
+    width: 49%;
 }
 
 
